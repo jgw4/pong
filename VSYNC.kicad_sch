@@ -2131,7 +2131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W10.16mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 128.27 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2235,7 +2235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W10.16mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 172.72 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2351,7 +2351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W10.16mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 59.69 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2455,7 +2455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W10.16mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 200.66 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2573,7 +2573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W10.16mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 237.49 134.62 0)
 			(hide yes)
 			(show_name no)

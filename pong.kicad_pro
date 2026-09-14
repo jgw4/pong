@@ -211,6 +211,8 @@
       ],
       "track_widths": [
         0.0,
+        0.508,
+        1.905,
         6.35
       ],
       "tuning_pattern_settings": {
@@ -624,6 +626,24 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -674,7 +694,7 @@
         "uuid": "6c55baa6-be38-444e-ac95-9cecf812b759"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR5-10,#PWR17-20,D1-2,U2-3,C4-7,R6-7,UG4",
     "variants": []
   },
   "sheets": [
@@ -721,6 +741,30 @@
     [
       "2d96ab9b-b448-4f4a-818c-ea81a4e758ec",
       "HBALLCTRL"
+    ],
+    [
+      "77c55ca7-a066-4d98-a4d1-18b720a3c31f",
+      "VBALLCNTR"
+    ],
+    [
+      "c7accd46-d6b2-4ac5-a763-001c5323b792",
+      "VBALLCTRL"
+    ],
+    [
+      "f506160c-d81c-4920-9d6c-a6ee718d3d20",
+      "SCORECNTR"
+    ],
+    [
+      "2527c55f-8e15-4657-866b-769f6bd5f413",
+      "GAMECTRL"
+    ],
+    [
+      "9b703446-019e-4da1-b716-5e0600f8bd67",
+      "SOUND"
+    ],
+    [
+      "5b167edd-bd23-45e2-aa73-9f69e0f47c29",
+      "POWER"
     ]
   ],
   "text_variables": {},
