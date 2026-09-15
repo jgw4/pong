@@ -3,7 +3,11 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "09abe5e5-eaa2-4073-855e-21472fa0827d")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "PONG")
+		(company "Atari")
+	)
 	(lib_symbols
 		(symbol "74xx:7400"
 			(body_styles demorgan)
