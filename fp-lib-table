@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "pong") (type "KiCad") (uri "${KIPRJMOD}/pong.pretty") (options "") (descr ""))
+)
