@@ -2886,7 +2886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3002,7 +3002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 93.98 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3118,7 +3118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 160.02 96.52 0)
 			(hide yes)
 			(show_name no)

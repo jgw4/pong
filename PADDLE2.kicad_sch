@@ -5427,7 +5427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 115.57 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -5858,7 +5858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 241.3 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5968,7 +5968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 154.94 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6084,7 +6084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 124.46 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6200,7 +6200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 115.57 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6234,46 +6234,46 @@
 			)
 		)
 		(pin "7"
-			(uuid "b11b85cd-461b-4b8a-a20d-a4997f4a3b6e")
+			(uuid "b11b85cd-461b-4b8a-a20d-a4997f4a3b6f")
 		)
 		(pin "6"
-			(uuid "eeed895b-99ad-4720-8122-aff0260ce977")
+			(uuid "eeed895b-99ad-4720-8122-aff0260ce978")
 		)
 		(pin "13"
-			(uuid "81cc2d52-6c5a-48fc-a6ec-286af26f538a")
+			(uuid "81cc2d52-6c5a-48fc-a6ec-286af26f538b")
 		)
 		(pin "11"
-			(uuid "dc7080fc-c67b-454a-b607-a0321a0feaff")
+			(uuid "dc7080fc-c67b-454a-b607-a0321a0feb00")
 		)
 		(pin "14"
-			(uuid "04c0c140-4700-47f6-910c-3c59d73aa7b7")
+			(uuid "04c0c140-4700-47f6-910c-3c59d73aa7b8")
 		)
 		(pin "9"
-			(uuid "f70ed10f-e80a-4bdf-909c-b20c76831cfc")
+			(uuid "f70ed10f-e80a-4bdf-909c-b20c76831cfd")
 		)
 		(pin "5"
-			(uuid "b3420260-f040-46aa-ab79-2fc5852c2efc")
+			(uuid "b3420260-f040-46aa-ab79-2fc5852c2efd")
 		)
 		(pin "10"
-			(uuid "111de0d6-141f-4f3f-ae57-f357a9455a1e")
+			(uuid "111de0d6-141f-4f3f-ae57-f357a9455a1f")
 		)
 		(pin "1"
-			(uuid "96cad98c-e393-4dde-8d1a-c997e99160e2")
+			(uuid "96cad98c-e393-4dde-8d1a-c997e99160e3")
 		)
 		(pin "12"
-			(uuid "f7096bd6-f050-4d51-9775-206f673beddf")
+			(uuid "f7096bd6-f050-4d51-9775-206f673bede0")
 		)
 		(pin "2"
-			(uuid "4600a206-c6c9-4f6f-a499-2cfdadf82e00")
+			(uuid "4600a206-c6c9-4f6f-a499-2cfdadf82e01")
 		)
 		(pin "3"
-			(uuid "d83cb2fa-4d56-4517-a4e4-01e026ef124a")
+			(uuid "d83cb2fa-4d56-4517-a4e4-01e026ef124b")
 		)
 		(pin "8"
-			(uuid "2fa1efec-8d5d-4921-a8e3-023313ef3945")
+			(uuid "2fa1efec-8d5d-4921-a8e3-023313ef3946")
 		)
 		(pin "4"
-			(uuid "5a2b73fd-7e37-4e2e-93b1-dc3785278a3c")
+			(uuid "5a2b73fd-7e37-4e2e-93b1-dc3785278a3d")
 		)
 		(instances
 			(project "pong"
@@ -6396,7 +6396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 45.72 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6670,7 +6670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 182.88 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6852,7 +6852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 72.39 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6968,7 +6968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 154.94 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7002,46 +7002,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "98fe8076-9616-4ae3-8bae-893e74a77bf7")
+			(uuid "98fe8076-9616-4ae3-8bae-893e74a77bf8")
 		)
 		(pin "1"
-			(uuid "a1178bbc-32be-468c-a27c-069baf17cdea")
+			(uuid "a1178bbc-32be-468c-a27c-069baf17cdeb")
 		)
 		(pin "5"
-			(uuid "5a73d118-ce00-47ec-817b-a98f11d0fbdb")
+			(uuid "5a73d118-ce00-47ec-817b-a98f11d0fbdc")
 		)
 		(pin "2"
-			(uuid "0b6cd313-d484-4e9a-bd1b-caa249fffc6e")
+			(uuid "0b6cd313-d484-4e9a-bd1b-caa249fffc6f")
 		)
 		(pin "10"
-			(uuid "1cb4ce89-f481-4a9c-985b-0880ffbfecea")
+			(uuid "1cb4ce89-f481-4a9c-985b-0880ffbfeceb")
 		)
 		(pin "3"
-			(uuid "8266bc31-d752-4c8a-bc88-0e452f98cd59")
+			(uuid "8266bc31-d752-4c8a-bc88-0e452f98cd5a")
 		)
 		(pin "8"
-			(uuid "253cf9d5-aee4-4f3d-8178-fc96442d45e6")
+			(uuid "253cf9d5-aee4-4f3d-8178-fc96442d45e7")
 		)
 		(pin "6"
-			(uuid "a877637b-c91b-4a61-8eda-f086a458983e")
+			(uuid "a877637b-c91b-4a61-8eda-f086a458983f")
 		)
 		(pin "9"
-			(uuid "4f6143cf-ec70-44db-a6d4-c68eed58b3fa")
+			(uuid "4f6143cf-ec70-44db-a6d4-c68eed58b3fb")
 		)
 		(pin "12"
-			(uuid "d0823ebb-3179-4bf3-af6a-900670499db3")
+			(uuid "d0823ebb-3179-4bf3-af6a-900670499db4")
 		)
 		(pin "11"
-			(uuid "ffcccffd-b8f0-4e3f-a7f0-d251319c4926")
+			(uuid "ffcccffd-b8f0-4e3f-a7f0-d251319c4927")
 		)
 		(pin "7"
-			(uuid "09e20fe3-f250-46d7-a1b0-4e350391f60a")
+			(uuid "09e20fe3-f250-46d7-a1b0-4e350391f60b")
 		)
 		(pin "14"
-			(uuid "16d140c6-d758-4b7a-af76-bd7c7b6211cb")
+			(uuid "16d140c6-d758-4b7a-af76-bd7c7b6211cc")
 		)
 		(pin "13"
-			(uuid "c39786b1-5237-400e-8fa0-a84f6b5143ed")
+			(uuid "c39786b1-5237-400e-8fa0-a84f6b5143ee")
 		)
 		(instances
 			(project "pong"

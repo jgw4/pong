@@ -3980,6 +3980,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "CHECK IF E4E OR E4F IS THE CORRECT SYMBOL"
+		(exclude_from_sim no)
+		(at 262.636 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19c37801-152f-43f2-b226-50b18693e142")
+	)
 	(junction
 		(at 176.53 100.33)
 		(diameter 0)
@@ -5048,7 +5058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 162.56 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5242,7 +5252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 85.09 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -5348,7 +5358,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1K"
 			(at 168.91 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5438,7 +5448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 59.69 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -5554,7 +5564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 90.17 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5826,7 +5836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 200.66 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6100,7 +6110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 233.68 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6294,7 +6304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 54.61 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6644,7 +6654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6828,7 +6838,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "22K"
 			(at 168.91 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6918,7 +6928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 90.17 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7112,7 +7122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 107.95 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7228,7 +7238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 54.61 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7334,7 +7344,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1.2"
 			(at 168.91 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7424,7 +7434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 64.77 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7696,7 +7706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 54.61 115.57 0)
 			(hide yes)
 			(show_name no)

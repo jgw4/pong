@@ -4833,7 +4833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 157.48 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5030,7 +5030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 157.48 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5148,7 +5148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 200.66 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5266,7 +5266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 222.25 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5462,7 +5462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 72.39 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5580,7 +5580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 179.07 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6117,7 +6117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 31.75 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6202,6 +6202,124 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS74")
+		(at 44.45 173.99 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96d73612-d68d-4f8d-b50d-843bbeb46de7")
+		(property "Reference" "UA5"
+			(at 50.8 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS74"
+			(at 50.8 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
+			(at 44.45 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ls74a.pdf"
+			(at 44.45 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 44.45 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "768cdc22-a2d9-4dc1-a875-e3a09a553a6f")
+		)
+		(pin "9"
+			(uuid "146f361d-31f1-4d8a-bb6d-2060bde2af95")
+		)
+		(pin "11"
+			(uuid "7e8f7ab5-2eea-4ab6-acd6-146cef649cee")
+		)
+		(pin "13"
+			(uuid "13ed94d5-72c1-45c5-b098-a7166aa9cc97")
+		)
+		(pin "3"
+			(uuid "a77b6e7f-5411-4345-a34f-f2ffaadb05ea")
+		)
+		(pin "5"
+			(uuid "23ebe271-faa3-4ed8-8c29-71ca291992ce")
+		)
+		(pin "6"
+			(uuid "ba60858e-1811-4f9e-952f-3668ba3ffcda")
+		)
+		(pin "1"
+			(uuid "f3e4200c-8c72-430a-8871-a06c36705219")
+		)
+		(pin "2"
+			(uuid "378b6b01-f413-4344-8959-17f6e240a25c")
+		)
+		(pin "8"
+			(uuid "3f987045-cea7-4ceb-8d49-5da9c1545424")
+		)
+		(pin "10"
+			(uuid "80a753b7-422b-4701-87da-5f1acf203820")
+		)
+		(pin "4"
+			(uuid "3c73daa7-597c-4624-bb99-3c1996039292")
+		)
+		(pin "12"
+			(uuid "a352f5f7-6e2c-4cdf-a193-3f83ca42200d")
+		)
+		(pin "14"
+			(uuid "a79bea7f-8cb9-49f1-a089-89e613817161")
+		)
+		(instances
+			(project "pong"
+				(path "/6c55baa6-be38-444e-ac95-9cecf812b759/5b167edd-bd23-45e2-aa73-9f69e0f47c29"
+					(reference "UA5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:7402")
 		(at 54.61 139.7 0)
 		(unit 5)
@@ -6235,7 +6353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 54.61 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6432,7 +6550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 240.03 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6512,6 +6630,124 @@
 				(path "/6c55baa6-be38-444e-ac95-9cecf812b759/5b167edd-bd23-45e2-aa73-9f69e0f47c29"
 					(reference "UE6")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS74")
+		(at 66.04 173.99 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a35bbf61-caaf-4caf-bd0a-b4bb202da421")
+		(property "Reference" "UB5"
+			(at 72.39 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS74"
+			(at 72.39 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
+			(at 66.04 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ls74a.pdf"
+			(at 66.04 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 66.04 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67f306d8-73a2-47ef-8662-5fde376a776c")
+		)
+		(pin "8"
+			(uuid "0b86df56-f9f3-4b21-a38c-bcec19241112")
+		)
+		(pin "6"
+			(uuid "eaa71075-b990-4e48-bcba-5751854586d8")
+		)
+		(pin "2"
+			(uuid "58dcd755-8bb9-44bb-b094-a94efb171acb")
+		)
+		(pin "3"
+			(uuid "6b0e63ae-ecca-4131-88cb-d5faa9abab68")
+		)
+		(pin "5"
+			(uuid "eb5ebd4e-899a-44fd-8bef-3378e93e30c9")
+		)
+		(pin "4"
+			(uuid "e59daa4e-09d8-4702-89a1-13eb558e3cbe")
+		)
+		(pin "9"
+			(uuid "bb69ecd7-0cc0-46dd-adfd-b19a90975321")
+		)
+		(pin "12"
+			(uuid "4d8232fd-5da2-4144-94bf-89b98ff0127e")
+		)
+		(pin "13"
+			(uuid "0dec7fb4-bbda-4cde-8414-f4b02bd1aa75")
+		)
+		(pin "14"
+			(uuid "80bf115d-d995-40e1-a957-d9ae8fbef5dc")
+		)
+		(pin "11"
+			(uuid "933be88b-7f83-40f7-9a4c-90035104a50d")
+		)
+		(pin "10"
+			(uuid "8cc5ec4a-e4d0-42fb-bb21-8d16e22b3aee")
+		)
+		(pin "7"
+			(uuid "6aaf0994-413f-4716-b87e-59015009b7e8")
+		)
+		(instances
+			(project "pong"
+				(path "/6c55baa6-be38-444e-ac95-9cecf812b759/5b167edd-bd23-45e2-aa73-9f69e0f47c29"
+					(reference "UB5")
+					(unit 3)
 				)
 			)
 		)
@@ -6712,7 +6948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 222.25 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6830,7 +7066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 93.98 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6948,7 +7184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 93.98 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7148,7 +7384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 135.89 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7266,7 +7502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 200.66 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7384,7 +7620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 115.57 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7502,7 +7738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 115.57 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7620,7 +7856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 72.39 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7738,7 +7974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 259.08 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7856,7 +8092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 179.07 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7974,7 +8210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 54.61 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8092,7 +8328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 31.75 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8210,7 +8446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
 			(at 135.89 109.22 0)
 			(hide yes)
 			(show_name no)
