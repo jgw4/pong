@@ -4603,16 +4603,6 @@
 		)
 		(uuid "70d7b834-f860-463f-b8e8-70fd81575e35")
 	)
-	(label "H RESET"
-		(at 207.01 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8154928c-0a53-4369-9afb-1fb41c2b33da")
-	)
 	(label "2H"
 		(at 100.33 82.55 90)
 		(effects
@@ -4748,6 +4738,30 @@
 		(uuid "c2757eab-441c-47a9-83d7-459be26de928")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 127.2033 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "HRESET"
+		(shape input)
+		(at 194.31 38.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1807de0-ea03-430d-a2c9-04000bef47e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.31 28.0392 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

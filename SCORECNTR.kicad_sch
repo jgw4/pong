@@ -8495,22 +8495,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "d5d18438-0254-4f92-925c-7a0c9aace4da")
+			(uuid "d5d18438-0254-4f92-925c-7a0c9aace4db")
 		)
 		(pin "1"
-			(uuid "398929ee-10e1-4111-882b-bd0a4c6eb50a")
+			(uuid "398929ee-10e1-4111-882b-bd0a4c6eb50b")
 		)
 		(pin "2"
-			(uuid "f68cd047-34ef-4e38-b333-5802c53dc2a9")
+			(uuid "f68cd047-34ef-4e38-b333-5802c53dc2aa")
 		)
 		(pin "3"
-			(uuid "06f7922d-249c-4605-9c06-9862c818798a")
+			(uuid "06f7922d-249c-4605-9c06-9862c818798b")
 		)
 		(pin "4"
-			(uuid "5400daeb-6828-434e-82e4-93c631684d83")
+			(uuid "5400daeb-6828-434e-82e4-93c631684d84")
 		)
 		(pin "6"
-			(uuid "023b4812-aafb-483f-88ef-4651de327f7f")
+			(uuid "023b4812-aafb-483f-88ef-4651de327f80")
 		)
 		(instances
 			(project "pong"
