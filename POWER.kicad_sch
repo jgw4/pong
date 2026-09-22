@@ -6886,7 +6886,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8000UF"
+		(property "Value" "8000UF 15V"
 			(at 44.45 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6908,7 +6908,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/42036/39d.pdf"
 			(at 40.64 54.61 0)
 			(hide yes)
 			(show_name no)

@@ -3341,6 +3341,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N914"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N914"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N914_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N914_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Timer:NE555P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4033,7 +4220,7 @@
 		(at 45.72 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ed82630b-3ca1-4161-9950-5264587262a3")
+		(uuid "da7b5c9f-724d-49d8-8c74-53e2287848e3")
 	)
 	(no_connect
 		(at 53.34 118.11)
@@ -4151,7 +4338,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 66.04) (xy 45.72 71.12)
+			(xy 45.72 66.04) (xy 45.72 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4331,7 +4518,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 54.61) (xy 52.07 66.04)
+			(xy 53.34 54.61) (xy 53.34 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4411,7 +4598,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 54.61) (xy 52.07 54.61)
+			(xy 63.5 54.61) (xy 53.34 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4538,16 +4725,6 @@
 			(type default)
 		)
 		(uuid "f6c49d09-29b1-4e23-a8be-edceabf67840")
-	)
-	(wire
-		(pts
-			(xy 52.07 66.04) (xy 45.72 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd1d0806-ee7e-4fb5-9cf9-a7a85d556f49")
 	)
 	(global_label "{slash}HSYNC"
 		(shape input)
@@ -4949,7 +5126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 74.676 37.084 90)
 			(hide yes)
 			(show_name no)
@@ -5031,7 +5208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 46.736 142.494 90)
 			(hide yes)
 			(show_name no)
@@ -5315,7 +5492,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 45.72 74.93 0)
+		(at 45.72 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5326,7 +5503,7 @@
 		(fields_autoplaced yes)
 		(uuid "392a138f-1665-42f3-a09f-957ec10b24ef")
 		(property "Reference" "C11"
-			(at 49.53 73.6599 0)
+			(at 49.53 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5337,7 +5514,7 @@
 			)
 		)
 		(property "Value" ".1"
-			(at 49.53 76.1999 0)
+			(at 49.53 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5347,8 +5524,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 46.6852 78.74 0)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
+			(at 46.6852 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5359,7 +5536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 74.93 0)
+			(at 45.72 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5370,7 +5547,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 45.72 74.93 0)
+			(at 45.72 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5701,7 +5878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 87.3252 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5821,6 +5998,108 @@
 			(project "pong"
 				(path "/6c55baa6-be38-444e-ac95-9cecf812b759/1d942afb-67a3-4399-a8e9-cfe14f4ae65e"
 					(reference "#PWR66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N914")
+		(at 49.53 66.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7584401f-412c-4089-9700-1bcfa73afc22")
+		(property "Reference" "D6"
+			(at 49.53 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N914"
+			(at 49.53 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+			(at 49.53 61.595 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(at 49.53 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+			(at 49.53 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 49.53 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 49.53 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e943529f-f332-4201-a596-17b25d23e18e")
+		)
+		(pin "1"
+			(uuid "b83bca45-ab8c-42f6-954a-8a5c37e6f99a")
+		)
+		(instances
+			(project "pong"
+				(path "/6c55baa6-be38-444e-ac95-9cecf812b759/1d942afb-67a3-4399-a8e9-cfe14f4ae65e"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7132,7 +7411,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 78.74 0)
+		(at 45.72 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7142,7 +7421,7 @@
 		(dnp no)
 		(uuid "d74f90d2-7d3d-4144-8ea8-479cb20f1b54")
 		(property "Reference" "#PWR075"
-			(at 45.72 85.09 0)
+			(at 45.72 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7153,7 +7432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.514 77.724 90)
+			(at 48.514 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7164,7 +7443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 78.74 0)
+			(at 45.72 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7175,7 +7454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 78.74 0)
+			(at 45.72 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7186,7 +7465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 78.74 0)
+			(at 45.72 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7320,7 +7599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical"
 			(at 45.72 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7692,7 +7971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 46.736 48.514 90)
 			(hide yes)
 			(show_name no)
