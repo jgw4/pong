@@ -3020,7 +3020,7 @@
 	)
 	(symbol
 		(lib_id "74xx_IEEE:7410")
-		(at 321.31 -163.83 0)
+		(at 410.21 -166.37 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3031,7 +3031,7 @@
 		(fields_autoplaced yes)
 		(uuid "2aed9a9f-c3bd-4623-a0a6-0f4249cfbc2d")
 		(property "Reference" "UC4"
-			(at 330.2 -170.2502 0)
+			(at 419.1 -172.7902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3041,7 +3041,7 @@
 			)
 		)
 		(property "Value" "7410"
-			(at 330.2 -167.7102 0)
+			(at 419.1 -170.2502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3051,7 +3051,7 @@
 			)
 		)
 		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
-			(at 321.31 -163.83 0)
+			(at 410.21 -166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3062,7 +3062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 -163.83 0)
+			(at 410.21 -166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3073,7 +3073,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 321.31 -163.83 0)
+			(at 410.21 -166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3221,7 +3221,7 @@
 	)
 	(symbol
 		(lib_id "74xx_IEEE:7486")
-		(at 298.45 -52.07 0)
+		(at 387.35 -54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3232,7 +3232,7 @@
 		(fields_autoplaced yes)
 		(uuid "44dc6d7e-5bf0-44a9-96db-50fa3e6bbfae")
 		(property "Reference" "UA4"
-			(at 307.34 -58.4902 0)
+			(at 396.24 -61.0302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3242,7 +3242,7 @@
 			)
 		)
 		(property "Value" "7486"
-			(at 307.34 -55.9502 0)
+			(at 396.24 -58.4902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3252,7 +3252,7 @@
 			)
 		)
 		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
-			(at 298.45 -52.07 0)
+			(at 387.35 -54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3263,7 +3263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.45 -52.07 0)
+			(at 387.35 -54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3274,7 +3274,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 298.45 -52.07 0)
+			(at 387.35 -54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

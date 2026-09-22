@@ -4095,7 +4095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" ".1"
 			(at 85.09 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4106,7 +4106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D16.0mm_W5.0mm_P10.00mm"
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 82.2452 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -4464,7 +4464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 47.9552 161.29 0)
 			(hide yes)
 			(show_name no)

@@ -3269,6 +3269,566 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "d1:7450"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "7450"
+				(at 0 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 27.305 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 27.305 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DUAL 2-WIDE 2-INPUT AND-OR-INVERT GATES"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP-14_W7.62mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "7450_1_1"
+				(arc
+					(start 1.27 3.81)
+					(mid 2.491 0)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 8.89) (xy -6.35 8.89) (xy -6.35 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -2.54 8.89)
+					(mid 1.27 5.08)
+					(end -2.54 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -6.35 -1.27) (xy -6.35 -8.89) (xy -2.54 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -2.54 -1.27)
+					(mid 1.27 -5.08)
+					(end -2.54 -8.89)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 4.445 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 4.445 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 4.4704 3.81)
+					(mid 7.2642 2.5851)
+					(end 8.89 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 8.89 0)
+					(mid 7.2715 -2.5936)
+					(end 4.4704 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 3.81) (xy 1.27 3.81) (xy 1.27 3.81) (xy 1.524 3.4036) (xy 2.0574 2.2606) (xy 2.3876 1.0414)
+						(xy 2.4638 -0.254) (xy 2.3114 -1.4986) (xy 1.905 -2.7178) (xy 1.27 -3.81) (xy 1.27 -3.81) (xy 4.445 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "7450_2_1"
+				(arc
+					(start 1.27 3.81)
+					(mid 2.491 0)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 8.89) (xy -6.35 8.89) (xy -6.35 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -2.54 8.89)
+					(mid 1.27 5.08)
+					(end -2.54 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -6.35 -1.27) (xy -6.35 -8.89) (xy -2.54 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -2.54 -1.27)
+					(mid 1.27 -5.08)
+					(end -2.54 -8.89)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 4.445 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 4.445 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 4.4704 3.81)
+					(mid 7.2642 2.5851)
+					(end 8.89 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 8.89 0)
+					(mid 7.2715 -2.5936)
+					(end 4.4704 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 3.81) (xy 1.27 3.81) (xy 1.27 3.81) (xy 1.524 3.4036) (xy 2.0574 2.2606) (xy 2.3876 1.0414)
+						(xy 2.4638 -0.254) (xy 2.3114 -1.4986) (xy 1.905 -2.7178) (xy 1.27 -3.81) (xy 1.27 -3.81) (xy 4.445 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "7450_3_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "pong:LM309_TO3"
 			(pin_names
 				(offset 0.254)
@@ -3826,6 +4386,12 @@
 		(uuid "02ee9684-f0fa-4443-bc58-f3fc81126e9b")
 	)
 	(junction
+		(at 31.75 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0843104a-b494-4470-9c5a-b31080d0b2f0")
+	)
+	(junction
 		(at 259.08 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3854,6 +4420,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b705130-4b79-4762-a6ef-5852dbc894df")
+	)
+	(junction
+		(at 50.8 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d236504-6908-42f2-a1dc-50cfcebb3905")
 	)
 	(junction
 		(at 161.29 36.83)
@@ -4066,6 +4638,12 @@
 		(uuid "9fd2df0b-cc0f-400e-9f72-87a894499fe6")
 	)
 	(junction
+		(at 69.85 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a13009cd-d85d-404d-90c0-739087f26390")
+	)
+	(junction
 		(at 179.07 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4130,6 +4708,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c054e4a5-9f47-4549-a691-ef4385020608")
+	)
+	(junction
+		(at 50.8 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c084653a-964f-4484-aeea-3f26ab7759b6")
 	)
 	(junction
 		(at 222.25 121.92)
@@ -4367,6 +4951,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 182.88) (xy 69.85 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243c88f0-2562-4d08-a75e-302e60184588")
+	)
+	(wire
+		(pts
 			(xy 115.57 152.4) (xy 135.89 152.4)
 		)
 		(stroke
@@ -4434,6 +5028,16 @@
 			(type default)
 		)
 		(uuid "2c8dfec5-eb25-4ce6-b93e-b00ad75f4ef6")
+	)
+	(wire
+		(pts
+			(xy 31.75 182.88) (xy 50.8 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ed612a-bc24-4bf7-9dc9-392a3edef800")
 	)
 	(wire
 		(pts
@@ -4547,7 +5151,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 157.48) (xy 31.75 157.48)
+			(xy 274.32 157.48) (xy 69.85 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4724,6 +5328,16 @@
 			(type default)
 		)
 		(uuid "6b69bbbb-8fd7-42ac-a8bd-0f28c24a8aec")
+	)
+	(wire
+		(pts
+			(xy 69.85 157.48) (xy 50.8 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a8e9ed-112f-44cf-8d19-fd6435d8a697")
 	)
 	(wire
 		(pts
@@ -5094,6 +5708,16 @@
 			(type default)
 		)
 		(uuid "d0d2cad9-ccf8-476e-b45f-32a35ed89b66")
+	)
+	(wire
+		(pts
+			(xy 50.8 157.48) (xy 31.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d183c0f6-6709-4a45-a6bb-22e40a036c0a")
 	)
 	(wire
 		(pts
@@ -8152,6 +8776,118 @@
 		)
 	)
 	(symbol
+		(lib_id "d1:7450")
+		(at 69.85 170.18 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5617b21-bd93-4295-9ec0-43dfe245f912")
+		(property "Reference" "UB6"
+			(at 76.2 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "7450"
+			(at 76.2 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
+			(at 67.31 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DUAL 2-WIDE 2-INPUT AND-OR-INVERT GATES"
+			(at 69.85 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "894229d1-12ce-49ac-b4d9-c06928262e36")
+		)
+		(pin "14"
+			(uuid "8b1a2659-3e00-4fab-bd8a-33ad0884b1c6")
+		)
+		(pin "10"
+			(uuid "2f8bb2f2-6f6d-4978-ade1-a18f75c77476")
+		)
+		(pin "3"
+			(uuid "603c794c-4806-4057-8bc7-4399e27d736b")
+		)
+		(pin "4"
+			(uuid "df1e4b6c-c1bd-4c48-87be-bcb422e88e90")
+		)
+		(pin "1"
+			(uuid "76f267eb-eebf-48bb-934f-2a4a5aefebb9")
+		)
+		(pin "2"
+			(uuid "1aebde15-8f78-410f-9590-024bdf89d888")
+		)
+		(pin "9"
+			(uuid "22e8b86f-d0dd-40d1-b11f-4c25ea673b20")
+		)
+		(pin "6"
+			(uuid "fd1ef3a1-9501-4490-9312-1c662b551944")
+		)
+		(pin "13"
+			(uuid "73a956ce-538b-4e9f-bbc9-1b5ce469be20")
+		)
+		(pin "7"
+			(uuid "83e74b77-cdb1-4ae0-abe7-996c0a0592a6")
+		)
+		(pin "8"
+			(uuid "a983615e-ee45-4dd8-97d9-e777355163f2")
+		)
+		(instances
+			(project "pong"
+				(path "/6c55baa6-be38-444e-ac95-9cecf812b759/5b167edd-bd23-45e2-aa73-9f69e0f47c29"
+					(reference "UB6")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 212.09 152.4 0)
 		(unit 1)
@@ -9062,6 +9798,118 @@
 			(project "pong"
 				(path "/6c55baa6-be38-444e-ac95-9cecf812b759/5b167edd-bd23-45e2-aa73-9f69e0f47c29"
 					(reference "UD9")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "d1:7450")
+		(at 50.8 170.18 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb0017e5-7036-49d3-8d34-5fc18fc94afe")
+		(property "Reference" "UA6"
+			(at 57.15 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "7450"
+			(at 57.15 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pong:pong_DIP-14_W7.62mm_Socket_LongPads"
+			(at 48.26 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DUAL 2-WIDE 2-INPUT AND-OR-INVERT GATES"
+			(at 50.8 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "894229d1-12ce-49ac-b4d9-c06928262e35")
+		)
+		(pin "14"
+			(uuid "22640193-a206-429e-ab5d-0374d3c9b1e4")
+		)
+		(pin "10"
+			(uuid "2f8bb2f2-6f6d-4978-ade1-a18f75c77475")
+		)
+		(pin "3"
+			(uuid "603c794c-4806-4057-8bc7-4399e27d736a")
+		)
+		(pin "4"
+			(uuid "df1e4b6c-c1bd-4c48-87be-bcb422e88e8f")
+		)
+		(pin "1"
+			(uuid "76f267eb-eebf-48bb-934f-2a4a5aefebb8")
+		)
+		(pin "2"
+			(uuid "1aebde15-8f78-410f-9590-024bdf89d887")
+		)
+		(pin "9"
+			(uuid "22e8b86f-d0dd-40d1-b11f-4c25ea673b1f")
+		)
+		(pin "6"
+			(uuid "fd1ef3a1-9501-4490-9312-1c662b551943")
+		)
+		(pin "13"
+			(uuid "73a956ce-538b-4e9f-bbc9-1b5ce469be1f")
+		)
+		(pin "7"
+			(uuid "a7c5add0-568e-477d-9286-b1d12cf71c37")
+		)
+		(pin "8"
+			(uuid "a983615e-ee45-4dd8-97d9-e777355163f1")
+		)
+		(instances
+			(project "pong"
+				(path "/6c55baa6-be38-444e-ac95-9cecf812b759/5b167edd-bd23-45e2-aa73-9f69e0f47c29"
+					(reference "UA6")
 					(unit 3)
 				)
 			)
