@@ -4546,6 +4546,30 @@
 			)
 		)
 	)
+	(global_label "20"
+		(shape input)
+		(at 201.93 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "422c4e3f-7012-4685-b070-eb42c2541816")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.3342 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "64H"
 		(shape input)
 		(at 52.07 55.88 180)
@@ -7344,7 +7368,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2"
+		(property "Value" "1.2K"
 			(at 168.91 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)

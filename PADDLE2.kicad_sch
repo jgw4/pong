@@ -4187,6 +4187,12 @@
 		(uuid "3a013972-3ad9-496d-b2af-2eeb2085a6e6")
 	)
 	(junction
+		(at 73.66 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f660f3b-1a3e-4ff4-9678-bc2f37b1f873")
+	)
+	(junction
 		(at 45.72 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4258,6 +4264,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 25.4) (xy 73.66 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c55362d-308b-4cde-9434-f1b2b6a4b29f")
+	)
+	(wire
+		(pts
 			(xy 49.53 40.64) (xy 49.53 34.29)
 		)
 		(stroke
@@ -4305,6 +4321,16 @@
 			(type default)
 		)
 		(uuid "265ffe32-3194-4204-b068-f6400fcbc546")
+	)
+	(wire
+		(pts
+			(xy 69.85 20.32) (xy 73.66 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4976a2-8999-4d5e-92ae-9aee7fa23432")
 	)
 	(wire
 		(pts
@@ -5011,6 +5037,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "18"
+		(shape input)
+		(at 71.12 20.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb714d38-0a20-4858-88a5-eb941ab718f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 14.9158 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7588,7 +7638,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer_US"
+		(property "Value" "50K"
 			(at 43.18 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)

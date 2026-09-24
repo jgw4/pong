@@ -3050,6 +3050,30 @@
 			)
 		)
 	)
+	(global_label "16"
+		(shape input)
+		(at 158.75 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62008f2f-7e2b-44c0-8ea5-5c4bbb3177df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.1542 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VVID"
 		(shape input)
 		(at 60.96 59.69 180)
